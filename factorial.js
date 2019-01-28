@@ -1,0 +1,6 @@
+// Write a JavaScript program to calculate the factorial of a number
+
+const factorial = n => n === 1 ? n : n * factorial(n - 1);
+
+
+console.log(factorial(5))
